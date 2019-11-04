@@ -367,7 +367,7 @@ header {
 #colorlib-progress,
 #colorlib-contact,
 #about {
-  padding: 15em 0 0 0;
+  padding: 11em 0 0 0;
   clear: both;
   position: relative; }
   @media screen and (max-width: 768px) {
@@ -379,7 +379,7 @@ header {
     #colorlib-progress,
     #colorlib-contact,
     #about {
-      padding: 15em 0 0 0; } }
+      padding: 11em 0 0 0; } }
 
 .rotate {
   position: absolute;
