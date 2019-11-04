@@ -74,7 +74,26 @@ h1, h2, h3, h4, h5, h6 {
   color: #fcfcfc;
   background: #b7c2c2; }
 
-#colorlib-page {
+/* for publication blocks */
+img.pub_teaser {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 20px;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  border-style: solid;
+}
+span.pub_type {
+font-weight: 300;
+color: #7F7F7F;
+font-size: 14px;
+}
+span.pub_downloads {
+font-weight: 300;
+color: #7F7F7F;
+font-size: 12px;
+}
+
+  #colorlib-page {
   position: relative;
   -webkit-transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   -moz-transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
