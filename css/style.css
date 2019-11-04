@@ -368,6 +368,7 @@ header {
 #colorlib-contact,
 #about {
   padding: 11em 0 0 0;
+  margin-top:11em;
   clear: both;
   position: relative; }
   @media screen and (max-width: 768px) {
