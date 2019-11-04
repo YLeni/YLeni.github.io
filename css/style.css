@@ -87,6 +87,18 @@ font-weight: 300;
 color: #7F7F7F;
 font-size: 14px;
 }
+span.pub_title {
+  font-weight: 700;
+  font-size: 16px;
+  color: black;
+}
+span.pub_authors {
+  font-weight: 300;
+  font-size: 14px;
+}
+span.pub_me {
+  font-weight: 500;
+}
 span.pub_downloads {
 font-weight: 300;
 color: #7F7F7F;
