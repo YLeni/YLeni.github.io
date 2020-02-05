@@ -79,11 +79,13 @@ $(document).ready(function(){
     
     //experiment start
     $("#beg-btn").click(function(){
-        $('#exp-img').attr("src", curr_img_src);
+        //$('#exp-img').attr("src", curr_img_src);
+		$('#exp-img').attr("visibility", "visible");
       setTimeout(
           function() 
           {
-              $('#exp-img').attr("src", "vis/fix.PNG");
+              //$('#exp-img').attr("src", "vis/fix.PNG");
+			  $('#exp-img').attr("visibility", "hidden");
             }, $('#exp-slider').slider('value'))
         // function() 
         //   {
@@ -94,20 +96,25 @@ $(document).ready(function(){
     //change tested visualization
     $("#exp1-tg").click(function(){
         curr_img_src = "vis/exp1.PNG"
+		$('#exp-img').attr("src", curr_img_src);
     });
 
     $("#exp2-tg").click(function(){
         curr_img_src = "vis/exp2.PNG"
+		$('#exp-img').attr("src", curr_img_src);
     });
 
     $("#exp3-tg").click(function(){
         curr_img_src = "vis/exp3.PNG"
+		$('#exp-img').attr("src", curr_img_src);
     });
     $("#exp4-tg").click(function(){
         curr_img_src = "vis/exp4.PNG"
+		$('#exp-img').attr("src", curr_img_src);
     });
     $("#test-tg").click(function(){
         curr_img_src = "vis/test.PNG"
+		$('#exp-img').attr("src", curr_img_src);
     });
 });
 
