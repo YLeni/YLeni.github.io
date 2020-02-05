@@ -80,12 +80,12 @@ $(document).ready(function(){
     //experiment start
     $("#beg-btn").click(function(){
         //$('#exp-img').attr("src", curr_img_src);
-		$('#exp-img').attr("visibility", "visible");
+		$('#exp-img').css("visibility", "visible");
       setTimeout(
           function() 
           {
               //$('#exp-img').attr("src", "vis/fix.PNG");
-			  $('#exp-img').attr("visibility", "hidden");
+			  $('#exp-img').css("visibility", "hidden");
             }, $('#exp-slider').slider('value'))
         // function() 
         //   {
