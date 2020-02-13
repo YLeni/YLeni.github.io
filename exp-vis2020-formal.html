@@ -1,0 +1,124 @@
+<<!doctype html>
+	<html lang="us">
+
+	<head>
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+		<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src="https://kit.fontawesome.com/feca69124f.js" crossorigin="anonymous"></script>
+		<crowd-form answer-format="flatten-objects">
+			<div id="out-container" style="text-align: left;">
+				<div id="exp-container" style="position: relative; margin: 0 0 0 -250px; top: 50%; left: 50%; border:1px solid #000; text-align: center; height: 400px; width: 500px">
+					<div id="exp-instruction">
+						<p id="ins-title" style="font-weight: bold; font-size:18px"> Instruction </p>
+						<ul style="text-align: left">
+							<li>This experiment has 8 seesions.</li>
+							<li>In each session, the same chart would show on the screen and disapear fast.</li>
+							<li>After the chart disapear, please desribe what did you see/notice.</li>
+							<li>When a session is finished, click the "next" button to enter the next session.</li>
+							<li>After 8 sessions are completed, you can click the "submit" button.</li>
+							<li>If you are ready, click the "continue" button.</li>
+						</ul>
+						<!-- <p>This experiment have 8 sessions.In each session, the same data visualization would show fast on the screen.
+							Please describe what you see, the more details the better.
+							Then, click the button "next" to enter the next session. If ready, please click the icon below</p> -->
+						<div id="ins-btn" style="cursor:context-menu;margin: 5 0 0 215; height:20px; width:70px; padding: 2px; border: 1px solid;">Continue</div>
+						<!-- <button id="ins-btn">Continue</button> -->
+					</div>
+					<div id="pre-words" style="display: none; margin:-80px 0 0 0">
+						<p id="sess-title" style="display:none; font-size:50px; margin:100px 0 0 0">The 1st trail</p>
+						<p id="cnt-num" style="display:none; font-size:450px; margin:0 0 0 0">3</p>
+					</div>
+					<img id="exp-img" src="http://www.yangleni.com/vis/exp2.PNG" style="margin:20 0 0 0; display: none; max-width: 100%; max-height: 100%; vertical-align: middle;">
+					<div id="input-form" style="display:none; margin:140 0 0 0">
+						<p> Please describe what did you see: </p>
+						<crowd-input class="txt" name="exp1-1" required label="The 1st trial"></crowd-input>
+						<crowd-input class="txt" name="exp1-2" required label="The 2nd trial" style="display:none;"></crowd-input>
+						<crowd-input class="txt" name="exp1-3" required label="The 3rd trial" style="display:none;"></crowd-input>
+						<div id="next-btn" style="cursor:context-menu;margin: 5 0 0 215; height:20px; width:70px; padding: 2px; border: 1px solid;">Next</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- <button type="button" id="next-btn"> Next </button> -->
+		</crowd-form>
+	</body>
+	<script>
+		const trial_num = 3
+		var sess_id = 1
+
+		function show_session() {
+			$("#input-form").css('display', 'none')
+			$("#out-container").css('cursor', 'none')
+			if (sess_id == 1) {
+				$("#sess-title").html("The 1st trail")
+			} else if (sess_id == 2) {
+				$("#sess-title").html("The 2nd trail")
+			} else if (sess_id == 3) {
+				$("#sess-title").html("The 3rd trail")
+			} else if (sess_id < trail_num) {
+				$("#sess-title").html("The " + sess_id + "th trail")
+			}else {
+				$("#sess-title").html("The last trail")
+			}
+			$("#pre-words").css('display', 'block')
+			$("#sess-title").css('display', 'block')
+			sess_id++
+
+			setTimeout(function() {
+				$("#sess-title").hide()
+				$("#cnt-num").css('display', 'block')
+				$("#cnt-num").html(3)
+			}, 2000);
+			setTimeout(function() {
+				$("#cnt-num").html(2)
+			}, 3000);
+			setTimeout(function() {
+				$("#cnt-num").html(1)
+			}, 4000);
+
+			setTimeout(function() {
+				$("#cnt-num").css('display', 'none')
+				$("#pre-words").css('display', 'none')
+				setTimeout(function() {
+					$("#exp-img").css('display', 'block')
+					setTimeout(function() {
+						$("#exp-img").css('display', 'none')
+						setTimeout(function() {
+							$("#out-container").css('cursor', 'auto')
+							$("#input-form").css('display', 'block')
+						}, 500)
+					}, 200);
+				}, 800) //1sec total empty
+			}, 4500);
+		}
+
+		$(document).ready(function() {
+			$('#ins-btn').click(function() {
+				$('#exp-instruction').hide()
+				show_session()
+			});
+			var step = 1;
+			$('#next-btn').click(function() {
+				var value = $('.txt').eq(step - 1).val().replace(/\s+/g, '')
+				if (value) {
+					if (step < trial_num) {
+						$('.txt').eq(step - 1).hide();
+						$('.txt').eq(step).show();
+						step++;
+					}
+					if (step == trial_num) {
+						$('#next-btn').hide()
+					}
+					show_session()
+				} else {
+					$('.txt').eq(step - 1).attr("placeholder", "Please enter your answer first")
+				}
+			});
+		})
+	</script>
+
+	</html>
