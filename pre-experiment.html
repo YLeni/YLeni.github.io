@@ -1235,263 +1235,289 @@
     .footnote-line {
       white-space: normal;
     }
+
+    #clock{
+      height: 60px;
+      width: 120px;
+      position:fixed;
+      right:5%;
+      top: 40%;
+      text-align: center;
+      border:1px solid gray;
+      line-height: 60px;
+    }
+
   </style>
 
 </head>
 
 <body class='typora-export os-windows'>
+  <div id="clock">
+    Time: 00:00
+  </div>
   <div id='write' class='is-node'>
     <h2><a name="presenting-visualization" class="md-header-anchor"></a><span>Presenting Visualization</span></h2>
     <h3><a name="1-overview" class="md-header-anchor"></a><span>1. Overview</span></h3>
-    <p><span>In this experiment, you would be given </span><strong><span>a material that introduces a data visualization including its visual encoding and some findings in the visualization and a guideline on how to present a visualization</span></strong><span>.
-        Then according to the material and the guideline, you would </span><strong><span>record a slide show with audio of your voice to present the visualization</span></strong><span>. The target audiences are the general public who are non-experts
-        of visulization. If you using PPT to record the slide show you can upload the
-        PPT file with audio inserted, otherwise, you would upload a video file. We also provide a guideline on how to record the slide show.</span></p>
-    <h4><a name="content-of-the-presentation" class="md-header-anchor"></a><span>Content of the presentation:</span></h4>
-    <ul>
-      <li><strong><span>Introduction</span></strong><span> | Briefly introduce what information/topic the visualization presents.</span></li>
-      <li><strong><span>Explaining the visual encoding </span></strong><span> </span></li>
-      <li><strong><span>Findings</span></strong></li>
-    </ul>
-    <h4><a name="templates" class="md-header-anchor"></a><span>Templates:</span></h4>
-    <ul>
-      <li><a href=".\pre-exp-file\Name-SID.pptx"><span>Click to download the PPT template</span></a></li>
-    </ul>
-    <h4><a name="requirements" class="md-header-anchor"></a><span>Requirements</span></h4>
-    <ul>
-      <li><span>The length of the slide show should be </span><strong><span>less than 3 minutes</span></strong></li>
-      <li><span>Use your own words</span></li>
-      <li><span>Try to utilize the presentation guideline </span></li>
-    </ul>
-    <h3><a name="2-the-visualization-to-be-presented" class="md-header-anchor"></a><span>2. The visualization to be presented</span></h3>
-    <p><span>You have most 15 minutes to read and understand the material introducing a visualization, including its visual encoding and some findings it shows.
-        After 15 minutes, the text information would be hidden. And you can use your own words to introduce the visualization. You can click the button below if you want to finish the reading earlier.</span></p>
-    <div style="margin: 10px 10px 10px 10px; text-align: center;">
-      <input id="beg-btn" style="margin-right: 40px;" type="submit" value="Click to start reading " class="ui-button ui-widget ui-state-default ui-corner-all" role="button">
-    </div>
-    <div style="margin: 10px 10px 10px 10px; text-align: center;">
-      <input id="end-btn" style="margin-right: 40px;" type="submit" value="Click if you are ready to make slides" class="ui-button ui-widget ui-state-default ui-corner-all" role="button">
-    </div>
-    <h4><a name="21-introduction" class="md-header-anchor"></a><span>2.1 Introduction</span></h4>
-    <p class="text-material"><span>We introduce the Influence Flower as a new visual metaphor for the influence relations between researchers. An Influence Flower is an visualization with the target researcher in the center and other related
-        researchers on a circular
-        arc. It visualizes how a researcher influences and is influenced by other researchers. The influence of researcher A has to researcher B is measured by the number of researcher B’ papers that cited researcher A’s papers.</span></p>
-    <h4><a name="22-visual-encoding" class="md-header-anchor"></a><span>2.2 Visual Encoding</span></h4>
-    <center>
-      <img width="600" src=".\pre-exp-file\ben_flower.png">
-      <br>
-      <div style="padding: 2px;"><span style="font-weight:bold">Figure1:</span> The Influence Flower of Ben Shneiderman, who conducted fundamental research in the field of human-computer interaction</div>
-    </center>
-    <p class="text-material"><strong><span>Edge</span></strong><span>. The color and arrowhead of an edge indicate the influence’s direction. We assign two contrasting colors, red to denote the influence that the center node has towards the outer
-        nodes and blue to
-        represent the influence that the outer nodes have towards the center node. The thickness of the edge denotes the strength of influence. </span></p>
-    <p class="text-material"><strong><span>Node</span></strong><span>. The center node is white. The color of an outer node signifies the difference between the observed researcher and the other researcher&#39;s influence towards each other, from
-        dark blue ( outer node
-        has more influence) to white (the center and outer node’ influence is equal) to dark red ( the center node has more influence). The size of a node is proportional to the sum of influence. </span></p>
-    <center class="half">
-      <img width="600" src=".\pre-exp-file\contrast-flower1-1.PNG"><img width="600" src=".\pre-exp-file\contrast-flower2-1.PNG">
-      <br>
-      <div style="padding: 2px;"><span style="font-weight:bold">Figure2:</span> Comparing Influence Flower of Ben Shneiderman in three time periods. Top: 1971 to 1999. Bottom: 2000 to 2009. Grey background: anchor flower from 1971 to 2018.</div>
-    </center>
-    <p class="text-material"><strong><span>Contrast Flower.</span></strong><span> To compare multiple influence flowers generated at different time periods, we created the concept of an anchor flower. The anchor flower and influence flowers share
-        the same nodes. The time
-        period of the anchor is always the superset of all influence flowers – here the entire time range. The anchor is greyed out in the background, and an influence flower is drawn in color on top of the anchor flower.</span></p>
-    <h4><a name="23-findings" class="md-header-anchor"></a><span>2.3 Findings</span></h4>
-    <center class="half">
-      <img width="600" src=".\pre-exp-file\contrast-flower1-1.PNG"><img width="600" src=".\pre-exp-file\contrast-flower2-1.PNG">
-      <br>
-      <div style="padding: 2px;"><span style="font-weight:bold">Figure2:</span> Comparing Influence Flower of Ben Shneiderman in three time periods. Top: 1971 to 1999. Bottom: 2000 to 2009. Grey background: anchor flower from 1971 to 2018.</div>
-    </center>
-    <p class="text-material"><strong><span>Fig. 2</span></strong><span> compares two Influence Flowers of Ben Shneiderman. The time range of the anchor flower is from 1971 to 2018, greyed out as a background. The time range of the top flower is 1971
-        to 1999, and the time
-        range of the bottom flower is from 2000 to 2009. </span><strong><span>Catherine is the largest node in both flowers.</span></strong><span> For Shneiderman, </span><strong><span>Catherine bore more outgoing influence before 2000 (red), the
-          influence almost equalized in the 2000s (white)</span></strong><span>. One may also notice </span><strong><span>Niklas, whose mutual influence with Shneiderman was non-existent before 1999, began in the 2000s.</span></strong><span> This is
-        corroborated by career information obtained from Niklas’s homepage – that his first paper was published after 1999, he started his faculty career between 2000 and 2009.</span></p>
-    <h3><a name="4-presentation-guideline" class="md-header-anchor"></a><span>4. Presentation guideline</span></h3>
-    <h4><a name="41-when-explaining-the-visual-encoding" class="md-header-anchor"></a><span>4.1 When explaining the visual encoding</span></h4>
-    <ul>
-      <li><span>Give concrete examples to make your explanation more clear. You can say something like “in this bar chart each bar presents…, for instance, this bar is…”.</span></li>
-      <li><span>Add text labels or legend to the slides to help explain the visual encoding</span></li>
-    </ul>
-    <h4><a name="42-when-telling-the-findings" class="md-header-anchor"></a><span>4.2 When telling the findings</span></h4>
-    <ul>
-      <li><span>Make sure the audience know which region of the visualization you are talking about</span></li>
-      <li><span>Explicitly tell what do you see in the visulization supports the findings </span></li>
-      <li><span>If necessary, you can explain the visual encoding again to explain the findings</span></li>
-    </ul>
-    <h3><a name="5-record-the-slide-show" class="md-header-anchor"></a><span>5. Record the slide show</span></h3>
-    <p><span>Here is the instruction of how to record the slide show. Different from the top vis competition, you don&#39;t have to export the video, you can directly upload the slide show file with the narration, unless you use the screen recording
-        software. </span>
-      <span>Go to the section according to the recording tool you plan to use.</span></p>
-    <ul>
-      <li><span>PowerPoint - Windows (recommend, you can modify the recording of a specific slide)</span></li>
-      <li><span>PowerPoint - Mac (recommend, you can modify the recording of a specific slide)</span></li>
-      <li><span>Keynote</span></li>
-      <li><span>Screen recording software (If the recording function of Keynote or PPT fails)</span></li>
-    </ul>
-    <h4><a name="51--powerpoint---windows" class="md-header-anchor"></a><span>5.1 PowerPoint - Windows</span></h4>
-    <h5><a name="511--start-recording" class="md-header-anchor"></a><span>5.1.1 Start Recording</span></h5>
-    <p><span>Select </span><strong><span>Slide Show</span></strong><span> &gt; </span><strong><span>Record Slide Show.</span></strong>
-      <span>Choose from two options</span></p>
-    <ul>
-      <li><strong><span>Start Recording from Beginning</span></strong><span> - to record from the beginning of a presentation.</span></li>
-      <li><strong><span>Start Recording from Current Slide</span></strong><span> - to record from a specific slide</span></li>
-    </ul>
-    <center> <img width="600px" src=".\guide-record-video\ppt1.PNG"></center>
-    <p><span>then a recording interface would show for controlling the recording.</span></p>
-    <h5><a name="control-the-recording" class="md-header-anchor"></a><span>Control the recording</span></h5>
-    <h5><a name="for-different-versions-of-ppt" class="md-header-anchor"></a><span>For different versions of PPT:</span></h5>
-    <ul>
-      <li>
-        <p><span>Some earlier versions of PPT would have a recording interface like this image with a widget at the top-left corner. In this case, please check this website to know how to control the recording. </span><a href='https://support.office.com/en-us/article/video-record-presentations-2570dff5-f81c-40bc-b404-e04e95ffab33'
-            target='_blank' class='url'>https://support.office.com/en-us/article/video-record-presentations-2570dff5-f81c-40bc-b404-e04e95ffab33</a><span> After that, go to upload the file.</span></p>
-      </li>
-      <li>
+    <p><span>The experiments have two parts:
+        <ol>
+          <li><span>Part I:</span></li>
+          <ul>
+            <li><span>Read and understand a material that introduces a data visualization including its visual encoding and some findings in the visualization.</span></li>
+            <li><span>You have most 15 minutes to read the material. You can also end the reading early.</span></li>
+          </ul>
+          <li><span>Part II:</span></li>
+          <ul>
+            <li> <span> Record a slide show to present the visualization you see in the first part using your own words. Showing up in the recording is not required.</span></li>
+            <li> <span> In the presentation, you would give a <strong>brief introduction</strong>, <strong>explain the visuail encoding</strong> and <strong>tell the findings</strong> in the visualization. <a href=".\pre-exp-file\Name-SID.pptx"><span>Click
+                    to download the PPT template</span></a></span></li>
+            <li> <span> You can use the pictures provided in the material but not the text.</span></li>
+            <li> <span> A guideline on how to present the visualization would be provided. Please try to utilize it.</span></li>
+            <li> <span> The length of the slide show should be </span><strong><span>less than 3 minutes.</span></strong></li>
+            <li> <span> After you finishing the slides, you can go to Section 4 to see how to record the slide show.</span></li>
+          </ul>
+        </ol>
+        <h3><a name="2-the-visualization-to-be-presented" class="md-header-anchor"></a><span>2. The visualization to be presented</span></h3>
+        <p><span>You have most 15 minutes to read and understand the material introducing a visualization.
+            After 15 minutes, the text information would be hidden. Then you can start making the slides. You can click the button below if you want to finish the reading earlier.</span></p>
+        <div style="margin: 10px 10px 10px 10px; text-align: center;">
+          <input id="beg-btn" style="margin-right: 40px;" type="submit" value="Click to start reading " class="ui-button ui-widget ui-state-default ui-corner-all" role="button">
+        </div>
+        <div style="margin: 10px 10px 10px 10px; text-align: center;">
+          <input id="end-btn" style="margin-right: 40px;" type="submit" value="Click if you are ready to make slides" class="ui-button ui-widget ui-state-default ui-corner-all" role="button">
+        </div>
+        <h4><a name="21-introduction" class="md-header-anchor"></a><span>2.1 Introduction</span></h4>
+        <p class="text-material"><span>We introduce the Influence Flower as a new visual metaphor for the influence relations between researchers. An Influence Flower is an visualization with the target researcher in the center and other related
+            researchers on a circular
+            arc. It visualizes how a researcher influences and is influenced by other researchers. The influence of researcher A has to researcher B is measured by the number of researcher B’ papers that cited researcher A’s papers.</span></p>
+        <h4><a name="22-visual-encoding" class="md-header-anchor"></a><span>2.2 Visual Encoding</span></h4>
         <center>
-          <img width="350px" src=".\guide-record-video\ppt-version1.png">
+          <img width="600" src=".\pre-exp-file\ben_flower.png">
+          <br>
+          <div style="padding: 2px;"><span style="font-weight:bold">Figure1:</span> The Influence Flower of Ben Shneiderman, who conducted fundamental research in the field of human-computer interaction</div>
         </center>
-      </li>
-      <li>
-        <p><span>If your recording interface looks like this one, please continue reading.</span></p>
-        <center>
-          <img width="350px" src=".\guide-record-video\ppt-version2.png">
+        <p class="text-material"><strong><span>Edge</span></strong><span>. The color and arrowhead of an edge indicate the influence’s direction. We assign two contrasting colors, red to denote the influence that the center node has towards the
+            outer
+            nodes and blue to
+            represent the influence that the outer nodes have towards the center node. The thickness of the edge denotes the strength of influence. </span></p>
+        <p class="text-material"><strong><span>Node</span></strong><span>. The center node is white. The color of an outer node signifies the difference between the observed researcher and the other researcher&#39;s influence towards each other,
+            from
+            dark blue ( outer node
+            has more influence) to white (the center and outer node’ influence is equal) to dark red ( the center node has more influence). The size of a node is proportional to the sum of influence. </span></p>
+        <center class="half">
+          <img width="600" src=".\pre-exp-file\contrast-flower1-1.PNG"><img width="600" src=".\pre-exp-file\contrast-flower2-1.PNG">
+          <br>
+          <div style="padding: 2px;"><span style="font-weight:bold">Figure2:</span> Comparing Influence Flower of Ben Shneiderman in three time periods. Top: 1971 to 1999. Bottom: 2000 to 2009. Grey background: anchor flower from 1971 to 2018.</div>
         </center>
-      </li>
-    </ul>
-    <h5><a name="to-record-one-slide" class="md-header-anchor"></a><span>To record one slide</span></h5>
-    <center>
-      <img width="600px" src=".\guide-record-video\ppt2.PNG"></center>
-    <p><span> You can click:</span></p>
-    <ul>
-      <li><strong><span>Record</span></strong><span> - to start the recording of this slide. The timer counts down from 3 before recording begins.</span></li>
-      <li><strong><span>Stop</span></strong><span> - to end the recording of this slide</span></li>
-      <li><strong><span>Reply</span></strong><span> - to reply what you recorded</span></li>
-      <li><strong><span>Clear</span></strong><span> - to clear what you recorded in this slide.</span></li>
-    </ul>
-    <p><span> If you add any animation to this slide, it can still be triggered and played as usual during the recording.</span></p>
-    <p><span> Some other useful functions:</span></p>
-    <center>
-      <img width="600px" src=".\guide-record-video\ppt3.PNG"></center>
-    <ul>
-      <li><span>Click </span><strong><span>&quot;NOTES&quot;</span></strong><span> to show the notes you write in this slide. You can write some key words or the manuscript for your presentation.</span></li>
-      <li><span>At the bottom-left corner, there is the time information.</span></li>
-    </ul>
-    <h5><a name="to-record-the-next-slide" class="md-header-anchor"></a><span>To record the next slide</span></h5>
-    <p><span>After finishing the recording of one slide, to record next one, you can:</span></p>
-    <ul>
-      <li><span>just click the </span><em><span>RIGHT ARROW</span></em><span> on your keyboard without stopping.</span></li>
-      <li><span>click &quot;Stop&quot; first, then click the </span><em><span>RIGHT ARROW</span></em><span> on your keyboard and record the new slide as the previous one. </span></li>
-    </ul>
-    <h5><a name="to-change-the-recording-of-a-specific-slide" class="md-header-anchor"></a><span>To change the recording of a specific slide</span></h5>
-    <p><span>If you closed the recording interface and wish to re-record narration for a slide, navigate to the slide you wish to rerecord and click </span><strong><span>Slide Show</span></strong><span>&gt; </span><strong><span>Record Slide Show
-        </span></strong><span>&gt;</span><strong><span>Start Recording from Current Slide</span></strong><span>. Click the </span><strong><span>clear</span></strong><span> button to clear the previous narration. When you are ready to record, click
-      </span><strong><span>Record</span></strong><span> to begin a new recording. Click </span><strong><span>Stop</span></strong><span> to end the recording.</span></p>
-    <h5><a name="512-upload-the-file" class="md-header-anchor"></a><span>5.1.2 Upload the file</span></h5>
-    <p><span>Now, if you click </span><strong><span>Slide Show</span></strong><span> &gt; </span><strong><span>From the beginning</span></strong><span>, the slide would play automatically like a video. Please upload your slide show file through this
-        link:</span>
-      <span>xxxxx</span></p>
-    <h4><a name="52-powerpoint---mac" class="md-header-anchor"></a><span>5.2. PowerPoint - Mac</span></h4>
-    <h5><a name="521-if-you-are-going-to-use-an-external-microphone-or-headset" class="md-header-anchor"></a><span>5.2.1 If you are going to use an external microphone or headset</span></h5>
-    <center>
-      <img width="600px" src=".\guide-record-video\pptmac0.PNG"></center>
-    <h5><a name="522-start-recording" class="md-header-anchor"></a><span>5.2.2 Start Recording</span></h5>
-    <p><span>Select </span><strong><span>Slide Show</span></strong><span> &gt; </span><strong><span>Record Slide Show</span></strong></p>
-    <center>
-      <img width="600px" src=".\guide-record-video\pptmac1.PNG"></center>
-    <h5><a name="control-the-recording-n123" class="md-header-anchor"></a><span>Control the recording</span></h5>
-    <p><span>Here is the recording interface: you will </span><strong><span>be able to view your slide notes</span></strong><span> at the bottom-right corner.</span></p>
-    <center>
-      <img width="600px" src=".\guide-record-video\pptmac2.PNG"></center>
-    <h5><a name="to-record-a-slide" class="md-header-anchor"></a><span>To record a slide</span></h5>
-    <center>
-      <img width="600px" src=".\guide-record-video\pptmac3.PNG"></center>
-    <p><span> You can click:</span></p>
-    <ul>
-      <li><strong><span>Pause/Play</span></strong><span> - to start/pause the recording of this slide</span></li>
-      <li><strong><span>Restart</span></strong><span> - to clear the recording of this slide and start over again</span></li>
-      <li><strong><span>End show</span></strong><span> - to end the whole recording</span></li>
-    </ul>
-    <p><span>You can also see the recording time of the current slide and of the whole presentation.</span></p>
-    <h5><a name="to-record-the-next-slide-n137" class="md-header-anchor"></a><span>To record the next slide</span></h5>
-    <p><span>After finishing the recording of one slide, to record next one, you can:</span></p>
-    <ul>
-      <li><span>just click the </span><em><span>RIGHT ARROW</span></em><span> on your keyboard without stopping.</span></li>
-      <li><span>click &quot;pause&quot; first, then click the </span><em><span>RIGHT ARROW</span></em><span> on your keyboard and record the new slide as the previous one. </span></li>
-    </ul>
-    <h5><a name="to-change-the-recording-of-a-specific-slide-n144" class="md-header-anchor"></a><span>To change the recording of a specific slide</span></h5>
-    <p><span>If you closed the recording interface and wish to re-record narration for a slide, navigate to the slide you wish to rerecord and click </span><strong><span>Slide Show</span></strong><span> &gt; </span><strong><span>Record Slide Show
-        </span></strong><span>. Click the </span><strong><span>Restart button</span></strong><span> to reset and pause the timer. When you are ready to record, </span><strong><span>click Pause/Play</span></strong><span> to delete the previous
-        recording and begin a new recording. Click </span><strong><span>End Show</span></strong><span> to end recording.</span></p>
-    <h5><a name="523-upload-the-file" class="md-header-anchor"></a><span>5.2.3 Upload the file</span></h5>
-    <p><span>Now, if you click </span><strong><span>Slide Show</span></strong><span> &gt; </span><strong><span>From the beginning</span></strong><span>, the slide would play automatically like a video. Please upload your slide show file through this
-        link:</span>
-      <span>xxxxx</span></p>
-    <h4><a name="53-keynote" class="md-header-anchor"></a><span>5.3. Keynote</span></h4>
-    <h5><a name="531-start-recording" class="md-header-anchor"></a><span>5.3.1 Start Recording</span></h5>
-    <p><span>Select </span><strong><span>Slide Show</span></strong><span> &gt; </span><strong><span>Record Slide Show.</span></strong></p>
-    <center>
-      <img width="600px" src=".\guide-record-video\keynote1.PNG"></center>
-    <h5><a name="control-the-recording-n152" class="md-header-anchor"></a><span>Control the recording</span></h5>
-    <p><span>Here is the recording interface:</span></p>
-    <center>
-      <img width="800px" src=".\guide-record-video\keynote2.PNG"></center>
-    <ul>
-      <li><span>To start recording your presentation, click </span><img src="http://d2nwkt1g6n1fev.cloudfront.net/skydocu/wp-content/uploads/content/keynote/images/keynote-en-IL_RedDot.png" referrerpolicy="no-referrer" alt="Record button"><span>at
-          the bottom of the window</span></li>
-      <li><span>To advance to the next slide, click the slide or press the Right Arrow key</span></li>
-      <li><span>You can pause the recording at any time by clicking the Pause button. Click </span><img src="http://d2nwkt1g6n1fev.cloudfront.net/skydocu/wp-content/uploads/content/keynote/images/keynote-en-IL_RedDot.png" referrerpolicy="no-referrer"
-          alt="Record button"><span> to resume recording</span></li>
-      <li><span>When you’re done, click </span><img src="http://d2nwkt1g6n1fev.cloudfront.net/skydocu/wp-content/uploads/content/keynote/images/keynote-en-IL_RedDot.png" referrerpolicy="no-referrer" alt="Record button"><span> to stop the recording</span></li>
-      <li><span>Press the Escape (Esc) key to save the recording and exit the presentation</span></li>
-    </ul>
-    <h5><a name="532--save-the-video" class="md-header-anchor"></a><span>5.3.2 Save the video</span></h5>
-    <p><span>Now, if you click </span><strong><span>Slide Show</span></strong><span> &gt; </span><strong><span>Play Recorded Slideshow</span></strong><span>, the slide would play automatically like a video. However, the file cannot be uploaded
-        online as a video. To save the file as a video:</span></p>
-    <ul>
-      <li>
-        <p><span>Select </span><strong><span>File</span></strong><span> &gt; </span><strong><span>Export to</span></strong><span> &gt; </span><strong><span>QuickTime</span></strong></p>
-      </li>
-      <li>
+        <p class="text-material"><strong><span>Contrast Flower.</span></strong><span> To compare multiple influence flowers generated at different time periods, we created the concept of an anchor flower. The anchor flower and influence flowers
+            share
+            the same nodes. The time
+            period of the anchor is always the superset of all influence flowers – here the entire time range. The anchor is greyed out in the background, and an influence flower is drawn in color on top of the anchor flower. The anchor flower
+            determines the overall node ordering, background
+            size and position.</span></p>
+        <h4><a name="23-findings" class="md-header-anchor"></a><span>2.3 Findings</span></h4>
+        <center class="half">
+          <img width="600" src=".\pre-exp-file\contrast-flower1-1.PNG"><img width="600" src=".\pre-exp-file\contrast-flower2-1.PNG">
+          <br>
+          <div style="padding: 2px;"><span style="font-weight:bold">Figure2:</span> Comparing Influence Flower of Ben Shneiderman in three time periods. Top: 1971 to 1999. Bottom: 2000 to 2009. Grey background: anchor flower from 1971 to 2018.</div>
+        </center>
+        <p class="text-material"><strong><span>Fig. 2</span></strong><span> compares two Influence Flowers of Ben Shneiderman. The time range of the anchor flower is from 1971 to 2018, greyed out as a background. The time range of the top flower is
+            1971
+            to 1999, and the time range of the bottom flower is from 2000 to 2009. The outter nodes of the flower are 25 authors with the most frequenct interaction with Ben Shneiderman over his entire academic career. In both time periods, Ben
+            Shneiderman had more influences on others than that of others on him (more red nodes and edges).
+          </span><strong><span>Catherine is the largest node in both flowers.</span></strong><span> For Shneiderman, </span><strong><span>Catherine bore more outgoing influence before 2000 (red), the
+              influence almost equalized in the 2000s (white)</span></strong><span>. </p>
+        <h3><a name="3-presentation-guideline" class="md-header-anchor"></a><span>3. Presentation guideline</span></h3>
+        <h4><a name="31-when-explaining-the-visual-encoding" class="md-header-anchor"></a><span>3.1 When explaining the visual encoding</span></h4>
+        <ul>
+          <li><span>Give concrete examples to make your explanation more clear. You can say something like “in this bar chart each bar presents…, for instance, this bar is…”.</span></li>
+          <li><span>Add text labels or legend to the slides to help explain the visual encoding</span></li>
+        </ul>
+        <h4><a name="32-when-telling-the-findings" class="md-header-anchor"></a><span>3.2 When telling the findings</span></h4>
+        <ul>
+          <li><span>Make sure the audience know which region of the visualization you are talking about</span></li>
+          <li><span>Explicitly tell what do you see in the visulization supports the findings </span></li>
+          <li><span>You can explain the visual encoding again to explain the findings</span></li>
+        </ul>
+        <h3><a name="4-record-the-slide-show" class="md-header-anchor"></a><span>4. Record the slide show</span></h3>
+        <p><span>Here is the instruction of how to record the slide show. Different from the top vis competition, you don&#39;t have to export the video, you can directly upload the slide show file with the narration, unless you use the screen
+            recording
+            software. </span>
+          <span>Go to the section according to the recording tool you plan to use.</span></p>
+        <ul>
+          <li><span>PowerPoint - Windows (recommend, you can modify the recording of a specific slide)</span></li>
+          <li><span>PowerPoint - Mac (recommend, you can modify the recording of a specific slide)</span></li>
+          <li><span>Keynote</span></li>
+          <li><span>Screen recording software (If the recording function of Keynote or PPT fails)</span></li>
+        </ul>
+        <h4><a name="41--powerpoint---windows" class="md-header-anchor"></a><span>4.1 PowerPoint - Windows</span></h4>
+        <h5><a name="411--start-recording" class="md-header-anchor"></a><span>4.1.1 Start Recording</span></h5>
+        <p><span>Select </span><strong><span>Slide Show</span></strong><span> &gt; </span><strong><span>Record Slide Show.</span></strong>
+          <span>Choose from two options</span></p>
+        <ul>
+          <li><strong><span>Start Recording from Beginning</span></strong><span> - to record from the beginning of a presentation.</span></li>
+          <li><strong><span>Start Recording from Current Slide</span></strong><span> - to record from a specific slide</span></li>
+        </ul>
+        <center> <img width="600px" src=".\guide-record-video\ppt1.PNG"></center>
+        <p><span>then a recording interface would show for controlling the recording.</span></p>
+        <h5><a name="control-the-recording" class="md-header-anchor"></a><span>Control the recording</span></h5>
+        <h5><a name="for-different-versions-of-ppt" class="md-header-anchor"></a><span>For different versions of PPT:</span></h5>
+        <ul>
+          <li>
+            <p><span>Some earlier versions of PPT would have a recording interface like this image with a widget at the top-left corner. In this case, please check this website to know how to control the recording. </span><a href='https://support.office.com/en-us/article/video-record-presentations-2570dff5-f81c-40bc-b404-e04e95ffab33'
+                target='_blank' class='url'>https://support.office.com/en-us/article/video-record-presentations-2570dff5-f81c-40bc-b404-e04e95ffab33</a><span> After that, go to upload the file.</span></p>
+          </li>
+          <li>
+            <center>
+              <img width="350px" src=".\guide-record-video\ppt-version1.png">
+            </center>
+          </li>
+          <li>
+            <p><span>If your recording interface looks like this one, please continue reading.</span></p>
+            <center>
+              <img width="350px" src=".\guide-record-video\ppt-version2.png">
+            </center>
+          </li>
+        </ul>
+        <h5><a name="to-record-one-slide" class="md-header-anchor"></a><span>To record one slide</span></h5>
         <center>
-          <img width="500px" src=".\guide-record-video\keynote3.PNG"></center>
-      </li>
-      <li>
-        <p><span>Then in the &quot;Playback&quot; area, make sure the &#39;Slideshow Recording&#39; is selected</span></p>
-      </li>
-      <li>
-        <p><span>In the &quot;Format&quot; area, we recommend to choose the 720p resolution (if it clear enough)</span></p>
-      </li>
-      <li>
-        <p><span>Click </span><strong><span>Next</span></strong><span>. Set the position to save the file. Click &quot;Export&quot;.</span></p>
-      </li>
-    </ul>
-    <center>
-      <img width="500px" src=".\guide-record-video\keynote4.PNG">
-    </center>
-    <h4><a name="54-screen-recording-software" class="md-header-anchor"></a><span>5.4 Screen Recording Software</span></h4>
-    <p><span>In case the recording function of PPT or Keynote fails, you can try screen recording software. Basically, you would play the presentation with the screen recorder open to record the screen and your narration at the same time. There are
-        several useful software with tutorials. You can also search other ones online. </span></p>
-    <h5><a name="quicktime--a-built-in-software-in--mac" class="md-header-anchor"></a><span>QuickTime: A built-in software in Mac </span></h5>
-    <ul>
-      <li><span>Tutorial: </span><a href='https://support.apple.com/en-us/HT208721' target='_blank' class='url'>https://support.apple.com/en-us/HT208721</a></li>
-    </ul>
-    <h5><a name="bandicam-free-for-windows" class="md-header-anchor"></a><span>BANDICAM: Free, for Windows</span></h5>
-    <ul>
-      <li><a href='https://www.bandicam.com/' target='_blank' class='url'>https://www.bandicam.com/</a></li>
-    </ul>
-    <h5><a name="camtasia-free-trial-for-mac--windows" class="md-header-anchor"></a><span>Camtasia: Free Trial, for Mac + Windows</span></h5>
-    <ul>
-      <li><a href='https://www.techsmith.com/video-editor.html' target='_blank' class='url'>https://www.techsmith.com/video-editor.html</a></li>
-    </ul>
-    <h5><a name="a-chinese-software-ev-recorder-free-for-macwindows" class="md-header-anchor"></a><span>(A Chinese software) EV recorder: Free, for Mac+Windows</span></h5>
-    <ul>
-      <li><a href='https://www.ieway.cn/evcapture.html' target='_blank' class='url'>https://www.ieway.cn/evcapture.html</a></li>
-    </ul>
-    <h5><a name="please-upload-your-video-file-through-this-link" class="md-header-anchor"></a><span>Please upload your video file through this link:</span></h5>
-    <p><span>xxxxx</span></p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
+          <img width="600px" src=".\guide-record-video\ppt2.PNG"></center>
+        <p><span> You can click:</span></p>
+        <ul>
+          <li><strong><span>Record</span></strong><span> - to start the recording of this slide. The timer counts down from 3 before recording begins.</span></li>
+          <li><strong><span>Stop</span></strong><span> - to end the recording of this slide</span></li>
+          <li><strong><span>Reply</span></strong><span> - to reply what you recorded</span></li>
+          <li><strong><span>Clear</span></strong><span> - to clear what you recorded in this slide.</span></li>
+        </ul>
+        <p><span> If you add any animation to this slide, it can still be triggered and played as usual during the recording.</span></p>
+        <p><span> Some other useful functions:</span></p>
+        <center>
+          <img width="600px" src=".\guide-record-video\ppt3.PNG"></center>
+        <ul>
+          <li><span>Click </span><strong><span>&quot;NOTES&quot;</span></strong><span> to show the notes you write in this slide. You can write some key words or the manuscript for your presentation.</span></li>
+          <li><span>At the bottom-left corner, there is the time information.</span></li>
+        </ul>
+        <h5><a name="to-record-the-next-slide" class="md-header-anchor"></a><span>To record the next slide</span></h5>
+        <p><span>After finishing the recording of one slide, to record next one, you can:</span></p>
+        <ul>
+          <li><span>just click the </span><em><span>RIGHT ARROW</span></em><span> on your keyboard without stopping.</span></li>
+          <li><span>click &quot;Stop&quot; first, then click the </span><em><span>RIGHT ARROW</span></em><span> on your keyboard and record the new slide as the previous one. </span></li>
+        </ul>
+        <h5><a name="to-change-the-recording-of-a-specific-slide" class="md-header-anchor"></a><span>To change the recording of a specific slide</span></h5>
+        <p><span>If you closed the recording interface and wish to re-record narration for a slide, navigate to the slide you wish to rerecord and click </span><strong><span>Slide Show</span></strong><span>&gt; </span><strong><span>Record Slide Show
+            </span></strong><span>&gt;</span><strong><span>Start Recording from Current Slide</span></strong><span>. Click the </span><strong><span>clear</span></strong><span> button to clear the previous narration. When you are ready to record,
+            click
+          </span><strong><span>Record</span></strong><span> to begin a new recording. Click </span><strong><span>Stop</span></strong><span> to end the recording.</span></p>
+        <h5><a name="412-upload-the-file" class="md-header-anchor"></a><span>4.1.2 Upload the file</span></h5>
+        <p><span>Now, if you click </span><strong><span>Slide Show</span></strong><span> &gt; </span><strong><span>From the beginning</span></strong><span>, the slide would play automatically like a video. Please upload your slide show file through
+            this
+            link:</span>
+          <span>xxxxx</span></p>
+        <h4><a name="42-powerpoint---mac" class="md-header-anchor"></a><span>4.2. PowerPoint - Mac</span></h4>
+        <h5><a name="421-if-you-are-going-to-use-an-external-microphone-or-headset" class="md-header-anchor"></a><span>4.2.1 If you are going to use an external microphone or headset</span></h5>
+        <center>
+          <img width="600px" src=".\guide-record-video\pptmac0.PNG"></center>
+        <h5><a name="422-start-recording" class="md-header-anchor"></a><span>4.2.2 Start Recording</span></h5>
+        <p><span>Select </span><strong><span>Slide Show</span></strong><span> &gt; </span><strong><span>Record Slide Show</span></strong></p>
+        <center>
+          <img width="600px" src=".\guide-record-video\pptmac1.PNG"></center>
+        <h5><a name="control-the-recording-n123" class="md-header-anchor"></a><span>Control the recording</span></h5>
+        <p><span>Here is the recording interface: you will </span><strong><span>be able to view your slide notes</span></strong><span> at the bottom-right corner.</span></p>
+        <center>
+          <img width="600px" src=".\guide-record-video\pptmac2.PNG"></center>
+        <h5><a name="to-record-a-slide" class="md-header-anchor"></a><span>To record a slide</span></h5>
+        <center>
+          <img width="600px" src=".\guide-record-video\pptmac3.PNG"></center>
+        <p><span> You can click:</span></p>
+        <ul>
+          <li><strong><span>Pause/Play</span></strong><span> - to start/pause the recording of this slide</span></li>
+          <li><strong><span>Restart</span></strong><span> - to clear the recording of this slide and start over again</span></li>
+          <li><strong><span>End show</span></strong><span> - to end the whole recording</span></li>
+        </ul>
+        <p><span>You can also see the recording time of the current slide and of the whole presentation.</span></p>
+        <h5><a name="to-record-the-next-slide-n137" class="md-header-anchor"></a><span>To record the next slide</span></h5>
+        <p><span>After finishing the recording of one slide, to record next one, you can:</span></p>
+        <ul>
+          <li><span>just click the </span><em><span>RIGHT ARROW</span></em><span> on your keyboard without stopping.</span></li>
+          <li><span>click &quot;pause&quot; first, then click the </span><em><span>RIGHT ARROW</span></em><span> on your keyboard and record the new slide as the previous one. </span></li>
+        </ul>
+        <h5><a name="to-change-the-recording-of-a-specific-slide-n144" class="md-header-anchor"></a><span>To change the recording of a specific slide</span></h5>
+        <p><span>If you closed the recording interface and wish to re-record narration for a slide, navigate to the slide you wish to rerecord and click </span><strong><span>Slide Show</span></strong><span> &gt; </span><strong><span>Record Slide
+              Show
+            </span></strong><span>. Click the </span><strong><span>Restart button</span></strong><span> to reset and pause the timer. When you are ready to record, </span><strong><span>click Pause/Play</span></strong><span> to delete the previous
+            recording and begin a new recording. Click </span><strong><span>End Show</span></strong><span> to end recording.</span></p>
+        <h5><a name="423-upload-the-file" class="md-header-anchor"></a><span>4.2.3 Upload the file</span></h5>
+        <p><span>Now, if you click </span><strong><span>Slide Show</span></strong><span> &gt; </span><strong><span>From the beginning</span></strong><span>, the slide would play automatically like a video. Please upload your slide show file through
+            this
+            link:</span>
+          <span>xxxxx</span></p>
+        <h4><a name="43-keynote" class="md-header-anchor"></a><span>4.3. Keynote</span></h4>
+        <h5><a name="431-start-recording" class="md-header-anchor"></a><span>4.3.1 Start Recording</span></h5>
+        <p><span>Select </span><strong><span>Slide Show</span></strong><span> &gt; </span><strong><span>Record Slide Show.</span></strong></p>
+        <center>
+          <img width="600px" src=".\guide-record-video\keynote1.PNG"></center>
+        <h5><a name="control-the-recording-n152" class="md-header-anchor"></a><span>Control the recording</span></h5>
+        <p><span>Here is the recording interface:</span></p>
+        <center>
+          <img width="800px" src=".\guide-record-video\keynote2.PNG"></center>
+        <ul>
+          <li><span>To start recording your presentation, click </span><img src="http://d2nwkt1g6n1fev.cloudfront.net/skydocu/wp-content/uploads/content/keynote/images/keynote-en-IL_RedDot.png" referrerpolicy="no-referrer" alt="Record button"><span>at
+              the bottom of the window</span></li>
+          <li><span>To advance to the next slide, click the slide or press the Right Arrow key</span></li>
+          <li><span>You can pause the recording at any time by clicking the Pause button. Click </span><img src="http://d2nwkt1g6n1fev.cloudfront.net/skydocu/wp-content/uploads/content/keynote/images/keynote-en-IL_RedDot.png" referrerpolicy="no-referrer"
+              alt="Record button"><span> to resume recording</span></li>
+          <li><span>When you’re done, click </span><img src="http://d2nwkt1g6n1fev.cloudfront.net/skydocu/wp-content/uploads/content/keynote/images/keynote-en-IL_RedDot.png" referrerpolicy="no-referrer" alt="Record button"><span> to stop the
+              recording</span></li>
+          <li><span>Press the Escape (Esc) key to save the recording and exit the presentation</span></li>
+        </ul>
+        <h5><a name="432--save-the-video" class="md-header-anchor"></a><span>4.3.2 Save the video</span></h5>
+        <p><span>Now, if you click </span><strong><span>Slide Show</span></strong><span> &gt; </span><strong><span>Play Recorded Slideshow</span></strong><span>, the slide would play automatically like a video. However, the file cannot be uploaded
+            online as a video. To save the file as a video:</span></p>
+        <ul>
+          <li>
+            <p><span>Select </span><strong><span>File</span></strong><span> &gt; </span><strong><span>Export to</span></strong><span> &gt; </span><strong><span>QuickTime</span></strong></p>
+          </li>
+          <li>
+            <center>
+              <img width="500px" src=".\guide-record-video\keynote3.PNG"></center>
+          </li>
+          <li>
+            <p><span>Then in the &quot;Playback&quot; area, make sure the &#39;Slideshow Recording&#39; is selected</span></p>
+          </li>
+          <li>
+            <p><span>In the &quot;Format&quot; area, we recommend to choose the 720p resolution (if it clear enough)</span></p>
+          </li>
+          <li>
+            <p><span>Click </span><strong><span>Next</span></strong><span>. Set the position to save the file. Click &quot;Export&quot;.</span></p>
+          </li>
+        </ul>
+        <center>
+          <img width="500px" src=".\guide-record-video\keynote4.PNG">
+        </center>
+        <h4><a name="44-screen-recording-software" class="md-header-anchor"></a><span>4.4 Screen Recording Software</span></h4>
+        <p><span>In case the recording function of PPT or Keynote fails, you can try screen recording software. Basically, you would play the presentation with the screen recorder open to record the screen and your narration at the same time. There
+            are
+            several useful software with tutorials. You can also search other ones online. </span></p>
+        <h5><a name="quicktime--a-built-in-software-in--mac" class="md-header-anchor"></a><span>QuickTime: A built-in software in Mac </span></h5>
+        <ul>
+          <li><span>Tutorial: </span><a href='https://support.apple.com/en-us/HT208721' target='_blank' class='url'>https://support.apple.com/en-us/HT208721</a></li>
+        </ul>
+        <h5><a name="bandicam-free-for-windows" class="md-header-anchor"></a><span>BANDICAM: Free, for Windows</span></h5>
+        <ul>
+          <li><a href='https://www.bandicam.com/' target='_blank' class='url'>https://www.bandicam.com/</a></li>
+        </ul>
+        <h5><a name="camtasia-free-trial-for-mac--windows" class="md-header-anchor"></a><span>Camtasia: Free Trial, for Mac + Windows</span></h5>
+        <ul>
+          <li><a href='https://www.techsmith.com/video-editor.html' target='_blank' class='url'>https://www.techsmith.com/video-editor.html</a></li>
+        </ul>
+        <h5><a name="a-chinese-software-ev-recorder-free-for-macwindows" class="md-header-anchor"></a><span>(A Chinese software) EV recorder: Free, for Mac+Windows</span></h5>
+        <ul>
+          <li><a href='https://www.ieway.cn/evcapture.html' target='_blank' class='url'>https://www.ieway.cn/evcapture.html</a></li>
+        </ul>
+        <h5><a name="please-upload-your-video-file-through-this-link" class="md-header-anchor"></a><span>Please upload your video file through this link:</span></h5>
+        <p><span>xxxxx</span></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
   </div>
 </body>
 
@@ -1500,9 +1526,36 @@
 <script>
   $(document).ready(function() {
     $('.text-material').css("visibility", "hidden");
+    $('#clock').css("visibility", "hidden");
     $("#beg-btn").click(function() {
+      var min = 0;
+      var sec = 0;
+      var min_string="";
+      var sec_string = "";
       $('#beg-btn').hide();
       $('.text-material').css("visibility", "visible");
+      $('#clock').css("visibility", "visible");
+      setInterval(
+        function(){
+          sec = sec + 1;
+          if (sec == 60) {
+            min = min + 1;
+            sec = 0;
+          }
+          if(sec < 10){
+            sec_string = "0" + sec.toString()
+          }
+          else{
+            sec_string = sec.toString()
+          }
+          if(min < 10){
+            min_string = "0" + min.toString()
+          }
+          else{
+            min_string = min.toString()
+          }
+          $('#clock').text("Time: " + min_string + ":" + sec_string)
+        }, 1000);
       setTimeout(
         function() {
           $('.text-material').hide();
