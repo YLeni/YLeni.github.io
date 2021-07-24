@@ -1431,12 +1431,6 @@ img {
   vertical-align: middle;
 }
 
-.img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 .img-rounded {
   border-radius: 6px;
 }
@@ -1451,7 +1445,7 @@ img {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -5482,7 +5476,17 @@ a.badge:hover, a.badge:focus {
     font-size: 63px;
   }
 }
+.img-responsive{
+  padding: 1px;
+  line-height: 1.42857;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  width: 100%;
+  height: auto;
 
+}
 .thumbnail {
   display: block;
   padding: 4px;
