@@ -359,6 +359,7 @@ header {
         text-decoration: none; }
 
 #project,
+#award,
 #publication,
 #colorlib-contact,
 #colorlib-work,
@@ -373,12 +374,14 @@ header {
   position: relative; }
   @media screen and (max-width: 768px) {
     #project,
+    #publication,
     #colorlib-contact,
     #colorlib-work,
     #blog,
     #colorlib-testimony,
     #colorlib-progress,
     #colorlib-contact,
+    #award
     #about {
       padding: 11em 0 0 0; } }
 
