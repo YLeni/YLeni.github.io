@@ -1445,8 +1445,8 @@ img {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
-  width: 100%;
-  height: auto;
+  width: 300px;
+  height: 180px;
 }
 
 .img-circle {
