@@ -522,7 +522,11 @@ header {
         transition: all 0.2s ease-in-out;
         display: inline-block;
         width: auto;
-        max-height: 300px;     
+        max-height: 450px;     
+}
+.blue-highlight{
+  font-weight: 700;
+  color: cadetblue;
 }
 
 .intro-heading {
