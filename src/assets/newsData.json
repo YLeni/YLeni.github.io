@@ -1,0 +1,122 @@
+[
+    {
+        "date":"Nov, 2025",
+        "event":"I attended the IEEE VIS 2025 conference in Vienna and presented one workshop paper and one poster.np",
+        "icon":"fa-solid fa-person-chalkboard"
+    },
+    {
+        "date":"Jan, 2025",
+        "event":"Our paper - TangibleNet: Synchronous Network Data Storytelling through Tangible Interactions in Augmented Reality has been accepted by ACM CHI 2025. Congrats to Kentaro Takahira!",
+        "icon":"fa-solid fa-star"
+    },
+    {
+        "date":"Jan, 2025",
+        "event":"Our paper - InterLink: LinkingText with Code and Output in Computational Notebooks has been accepted by ACM CHI 2025. Congrats to Yanna Lin!",
+        "icon":"fa-solid fa-star"
+    },
+
+    {
+        "date":"Jan, 2025",
+        "event":"Our paper - From Reader to Experiencer: Design and Evaluation of an Interactive Vr Story for Promoting the Situation Awareness of Public Health Threats has been accepted by IJHCI. Congrats to Qian Zhu!",
+        "icon":"fa-solid fa-person-chalkboard"
+    },
+    {
+        "date":"Dec, 2024",
+        "event":"I gave a talk at the SIGCHI Paris Chapter - Communicate data insights engagingly and immersively with visual data storytelling",
+        "icon":"fa-solid fa-person-chalkboard",
+        "link": "https://paris.sigchi.acm.org/talks/24_12_16/"
+    },
+    {
+        "date":"Oct, 2024",
+        "event":"I co-orgnized IEEE VIS 2024 Workshop on Data Storytelling in an Era of Generative AI. ",
+        "icon":"fa-solid fa-calendar-days",
+        "link": "https://gen4ds.github.io/gen4ds/"
+    },
+    {
+        "date":"July, 2024",
+        "event":"I am honored to sever as the Secretary General of the Organizing Committee of ChinaVis 2024, held at Hong Kong. ",
+        "icon":"fa-solid fa-calendar-days",
+        "link": "https://chinavis.org/2024/english/program_en.html"
+    },
+    {
+        "date":"Sep, 2024",
+        "event":"I joined the team Bivwac, Inria Bordeaux, as a Postdoc researcher. ",
+        "icon":"fa-brands fa-space-awesome",
+        "link": "https://bivwac.fr/"
+    },
+    {
+        "date":"Oct, 2023",
+        "event":"I gave a talk at the IEEE VIS 2023 panel - Establishing and Thriving in an Academic Career. ",
+        "icon":"fa-solid fa-person-chalkboard"
+    },
+    {
+        "date":"Aug, 2023",
+        "event":"Our paper - From Reader to Experiencer: Design and Evaluation of an Interactive Vr Story for Promoting the Situation Awareness of Public Health Threats has been accepted by IJHCI. Congrats to Qian Zhu!",
+        "icon":"fa-solid fa-star"
+    },
+    {
+        "date":"Jun, 2023",
+        "event":"Our paper - Why Change My Design: Explaining Poorly Constructed Visualization Designs with Explorable Explanations has been accepted by IEEE VIS 2023. Congrats to Leo Yu‑Ho Lo!",
+        "icon":"fa-solid fa-star"
+    },
+    {
+        "date":"Jun, 2023",
+        "event":"Our paper - InkSight: Leveraging Sketch Interaction for Documenting Chart Findings in Computational Notebooks has been accepted by IEEE VIS 2023. Congrats to Yanna Lin!",
+        "icon":"fa-solid fa-star"
+    },
+    {
+        "date":"May 2023",
+        "event":"Attend the ACM CHI 2023 conference.",
+        "icon":"fa-solid fa-person-walking-luggage"
+    },
+    {
+        "date":"Feb, 2023",
+        "event":"Our paper - Understanding 3D Data Videos: From Screens to Virtual Reality has been accepted by PacificVis 2023",
+        "icon":"fa-solid fa-star"
+    },
+    {
+        "date": "Sep, 2022",
+        "event":"I have passed my PhD defense. Call me Dr. Yang! ;)",
+        "icon": "fa-solid fa-graduation-cap"
+    },
+    {
+        "date":"Jan, 2023",
+        "event":"Our paper - Is It the End? Guidelines for Cinematic Endings in Data Videos has been accepted by ACM CHI 2023. Congrats to Xian Xu!",
+        "icon":"fa-solid fa-star"
+    },
+    {
+        "date":"Jan, 2022",
+        "event":"Our paper - From Wow to Why: Guidelines for Creating the Opening of a Data Video with Cinematic Styles has been accepted by ACM CHI 2022. Congrats to Xian Xu!",
+        "icon":"fa-solid fa-star"
+    },
+    {
+        "date":"Nov, 2022",
+        "event":"Our paper - Explaining with Examples: Lessons Learned from Crowdsourced Introductory Description of Information Visualizations has been accepted by IEEE TVCG.",
+        "icon":"fa-solid fa-star"
+    },
+    {
+        "date":"Jun, 2022",
+        "event":"Our paper - A Design Space for Applying the Freytag's Pyramid Structure to Data Stories has been accepted by IEEE VIS 2022",
+        "icon":"fa-solid fa-star"
+    },
+    {
+        "date":"Dec, 2021",
+        "event":"Visit Prof. Can Nan @Tongji University, iDVx Lab.",
+        "icon":"fa-solif fa-person-walking-luggage"
+    },
+    {
+        "date":"Oct, 2020",
+        "event":"I have passed the PhD qualification exam and now I am a PhD candidate!",
+        "icon":"fa-solid fa-graduation-cap"
+    },
+    {
+        "date":"Jun, 2019",
+        "event":"My first co-authored paper - CloudDet: Interactive Visual Analysis of Anomalous Performances in Cloud Computing Systems has been accepted by IEEE VIS 2019. I learned a lot from Ke Xu.",
+        "icon":"fa-solid fa-star"
+    },
+    {
+        "date":"Sep, 2018",
+        "event":"I start my research journey at HKUST.",
+        "icon":"fa-brands fa-space-awesome"
+    }
+]

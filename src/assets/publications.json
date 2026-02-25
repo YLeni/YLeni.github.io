@@ -1,0 +1,178 @@
+[
+    {
+    "id": 16,
+    "title": "Making Data Harder to Read: Visualizations that Intentionally Increase Time and Effort",
+    "venue": " IEEE Visualization 2025 Workshop on Visualization for Communication",
+    "venueTag": "IEEE VIS Workshop VisComm 2025",
+    "author": "Leni Yang, Pierre Dragicevic, Yvonne Jansen",
+    "page": "",
+    "pdf": "https://yleni.github.io/pdfs/vis25_make_data_hard_to_read.pdf",
+    "img": "img-effortvis",
+    "featured": true
+  },
+  {
+    "id": 15,
+    "title": "Augmented Reality-based Data Storytelling for Citizen Participation in Urban Planning",
+    "venue": " IEEE Visualization 2025 Poster",
+    "venueTag": "IEEE VIS Poster",
+    "author": "Leni Yang, Loann Giovannangeli",
+    "page": "",
+    "pdf": "https://yleni.github.io/pdfs/vis25_poster_summary_AR_based_data_storytelling_for_citizen_participation_in_urban_planning.pdf",
+    "img": "img-dsurban",
+    "featured": true
+  },
+  {
+    "id": 14,
+    "title": "InterLink: LinkingText with Code and Output in Computational Notebooks",
+    "venue": "ACM CHI Conference on Human Factors in Computing Systems 2025",
+    "venueTag": "ACM CHI",
+    "author": "Yanna Lin, Leni Yang, Haotian Li, Huamin Qu, Dominik Moritz",
+    "page": "",
+    "pdf": "https://arxiv.org/pdf/2502.16114",
+    "img": "img-interlink",
+    "featured": true
+  },
+  {
+    "id": 13,
+    "title": "TangibleNet: Synchronous Network Data Storytelling through Tangible Interactions in Augmented Reality",
+    "venue": "ACM CHI Conference on Human Factors in Computing Systems 2025",
+    "venueTag": "ACM CHI",
+    "author": "Kentaro Takahira, Wong Kam-Kwai, Leni Yang, Xian Xu, Takanori Fujiwara, Huamin Qu",
+    "page": "",
+    "pdf": "https://arxiv.org/pdf/2504.04710",
+    "img": "img-tangible",
+    "featured": true
+  },
+  {
+    "id": 12,
+    "title": "OutlineSpark: Igniting AI-powered Presentation Slides Creation from Computational Notebooks through Outlines",
+    "venue": "ACM CHI Conference on Human Factors in Computing Systems 2024",
+    "venueTag": "ACM CHI",
+    "author": "Fengjie Wang, Yanna Lin, Leni Yang, Haotian Li, Mingyang Gu, Min Zhu, Huamin Qu",
+    "page": "",
+    "pdf": "https://arxiv.org/pdf/2403.09121",
+    "img": "img-outline",
+    "featured": true
+  },
+  {
+    "id": 10,
+    "title": "From Reader to Experiencer: Design and Evaluation of an Interactive VR Story for Promoting the Situation Awareness of Public Health Threats",
+    "venue": "International Journal of Human–Computer Studies 2024",
+    "venueTag": "IJHCS",
+    "author": "Qian Zhu, Linping Yuan, Zian Xu, Leni Yang, Meng Xia, Zhuo Wang, Hai-Ning Liang, Xiaojuan Ma",
+    "page": "",
+    "pdf": "https://yleni.github.io/pdfs/ijhcs24_VR_data_story.pdf",
+    "img": "img-situ",
+    "featured": true
+  },
+  {
+    "id": 11,
+    "title": "Knowledge Compass: A Question Answering System Guiding Students with Follow-Up Question Recommendations",
+    "venue": "Adjunct Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology 2023",
+    "venueTag": "UIST Demo",
+    "author": "Rui Sheng, Leni Yang, Haotian Li, Yan Luo, Ziyang Xu, Zhilan Zhou, David Gotz, Huamin Qu",
+    "page": "",
+    "pdf": "https://yleni.github.io/pdfs/uist24_knowledge_compass.pdf",
+    "img": "img-comp",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "title": "Landslide Visualization Situated on Tangible Terrain Models",
+    "venue": "IEEE Visualization Conference Poster 2023",
+    "venueTag": "IEEE VIS Poster",
+    "author": "Haobo Li, Kentaro Takahira, Kam Kwai Wong, Leni Yang, Wai Tong, Huamin Qu",
+    "page": "",
+    "pdf": "https://ieeevis.b-cdn.net/vis_2023/posters/v-vis-posters-1069.pdf",
+    "img": "img-landslide",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "title": "InkSight: Leveraging Sketch Interaction for Documenting Chart Findings in Computational Notebooks",
+    "venue": "IEEE Visualization Conference 2023",
+    "venueTag": "IEEE VIS",
+    "author": "Yanna Lin, Haotian Li, Leni Yang, Aoyu Wu, Huamin Qu",
+    "page": "",
+    "pdf": "https://arxiv.org/pdf/2307.07922",
+    "img": "img-sketch",
+    "featured": true
+  },
+  {
+    "id": 7,
+    "title": "Why Change My Design: Explaining Poorly Constructed Visualization Designs with Explorable Explanations",
+    "venue": "IEEE Visualization Conference 2023",
+    "venueTag": "IEEE VIS",
+    "author": "Leo Yu‑Ho Lo, Yi‑Fan Cao, Leni Yang, Huamin Qu",
+    "page": "",
+    "pdf": "https://arxiv.org/pdf/2309.01445",
+    "img": "img-change",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "Understanding 3D Data Videos: From Screens to Virtual Reality",
+    "venue": "IEEE Pacific Visualization Symposium 2023",
+    "venueTag": "PacificVis",
+    "author": "Leni Yang, Aoyu Wu, Wai Tong, Xian Xu, Zheng Wei, Huamin Qu",
+    "page": "https://immersivedatavideo.github.io/",
+    "pdf": "https://yleni.github.io/pdfs/pvis23_vrdatavideo.pdf",
+    "img": "img-vrvideo",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "title": "Is It the End? Guidelines for Cinematic Endings in Data Videos",
+    "venue": "ACM CHI Conference on Human Factors in Computing Systems 2023",
+    "venueTag": "ACM CHI",
+    "author": "Xian Xu, Aoyu Wu, Leni Yang, Zheng Wei, Rong Huang, David Yip, Huamin Qu",
+    "page": "https://cinematicendings.github.io/#/",
+    "pdf": "https://arxiv.org/pdf/2303.14491",
+    "img": "img-end",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "From Wow to Why: Guidelines for Creating the Opening of a Data Video with Cinematic Styles",
+    "venue": "ACM CHI Conference on Human Factors in Computing Systems 2022",
+    "venueTag": "ACM CHI",
+    "author": "Xian Xu, Leni Yang, David Yip, Mingming Fan, Zheng Wei, Huamin Qu",
+    "page": "",
+    "pdf": "https://arxiv.org/pdf/2202.02709",
+    "img": "img-open",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "title": "A Design Space for Applying the Freytag's Pyramid Structure to Data Stories",
+    "venue": "IEEE Visualization Conference 2021",
+    "venueTag": "IEEE VIS/TVCG",
+    "author": "Leni Yang, Xian Xu, Xingyu Lan, Ziyan Liu, Shunan Guo, Yang Shi, Huamin Qu, Nan Cao",
+    "page": "https://pyramidstory.idvxlab.com/",
+    "pdf": "https://yleni.github.io/pdfs/vis21_fpyramid_data_story.pdf",
+    "img": "img-frey",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Explaining with Examples: Lessons Learned from Crowdsourced Introductory Description of Information Visualizations",
+    "venue": "IEEE Transactions on Visualization and Computer Graphics 2021",
+    "venueTag": "IEEE TVCG",
+    "author": "Leni Yang, Cindy Xiong, Jason K. Wong, Aoyu Wu, Huamin Qu",
+    "page": "https://osf.io/asvt6/?view_only=559eb881e3f640aa984d0ca8ad593d0a",
+    "pdf": "https://arxiv.org/pdf/2112.12364",
+    "img": "img-exp",
+    "featured": true
+  },
+  {
+    "id": 1,
+    "title": "Clouddet: Interactive Visual Analysis of Anomalous Performances in Cloud Computing Systems",
+    "venue": "IEEE Visualization Conference 2019",
+    "venueTag": "IEEE VIS/TVCG",
+    "author": "Ke Xu, Yun Wang, Leni Yang, Yifang Wang, Bo Qiao, Si Qin, Yong Xu, Haidong Zhang, Huamin Qu",
+    "page": "empty",
+    "pdf": "https://arxiv.org/pdf/1907.13187",
+    "img": "img-cloud",
+    "featured": false
+  }
+]

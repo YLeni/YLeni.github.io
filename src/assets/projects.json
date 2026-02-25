@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Pulse of HKUST: A Data-Driven Smart Campus",
+    "abstract":"Pulse of HKUST aims to promote a smart campus which supports effective and smart decision-makings through the combined power of IoT devices, big data, and AI. It serves as a data-driven platform to palpate the “pulse” of the campus community such as human crowds, facility availability, and events. The platform automatically senses real-time crowds based on Wi-Fi access logs and CCTV videos, and visualizes crowd distribution and movement appealingly. It further applies big data technologies to derive useful information about facility status, and utilizes AI techniques to predict crowds. Finally, it communicates those data to the public on various platforms including large-screen displays, Kiosk machines, and mobile websites. In addition, user privacy is strictly protected under the governance of the university by filtering out any personal information and setting restricted access to any sensitive data.",
+    "news":"Our project won the Student Innovation Gold Award, Hong Kong ICT Awards 2019 (By Office of the Government Chief Information Officer), and was exhibited at HKTDC International ICT Expo (Smart City, Smart Living Pavilion). ",
+    "link": "https://pulse.ust.hk/",
+    "img": "img-pulse",
+    "videoTitle":"Pulse of HKUST: A Data-Driven Smart Campus",
+    "video": "https://www.youtube.com/embed/0xaDsBgZxok",
+    "copyright": "HKUST VisLab Pulse Team",
+    "showVideo":"true"
+  },
+  {
+    "id": 2,
+    "title": "AI-powered, Personalized Analysis & Feedback Platform for K-12 Computational Thinking Skills",
+    "abstract":"Teaching computational thinking methods is vital in preparing K-12 students ready for the information age. Online learning platforms supplement traditional schooling but lack efficient monitoring and guidance due to information gaps and time constraints. Therefore, we proposed to revolutionize K-12 education and empower students to excel in the technology-driven landscape of the information age by reducing the workload of teachers and parents, facilitating efficient analysis of student performance, and providing personalized guidance. To achieve this goal, we will design a visual analytics system; innovate an automated reporting system; and invent a personalized learning path recommendation system. Our work will be deployed and rigorously tested in real-world settings, ensuring tangible and impactful results.",
+    "news":"Facing the situation that students will inevitably go to ChatBot (e.g., ChatGPT) for learning, we explored how to make an QA system that can encourage students to learn deeply, avoiding the situation that students stop thinking when given any answer from a ChatBot. Our short paper - Compass: A Question Answering System Guiding Students with Follow-Up Question Recommendations has been accepted by UIST 2023 Demo.",
+    "link": "http://vis.cse.ust.hk/groups/e-learning/",
+    "img": "img-elearning",
+    "videoTitle":"Knowledge Compass: A Question Answering System Guiding Students with Follow-Up Question Recommendations",
+    "video": "https://www.youtube.com/embed/6FAzckZaoRM",
+    "copyright": "HKUST VisLab E-learning Team",
+    "showVideo":"true"
+  },
+  {
+    "id": 4,
+    "title": "AR Ricci Map",
+    "abstract":"AR Ricci Map is an AR mobile app that blendes digital maps with a physcial map. It shows different versions of ancient maps and transforms 2D maps into 3D globes, which provides exhibition visitors a new and engaging way to understand these historical maps.",
+    "news":"The AR mobile app is used in the exhibition China In Maps 500 Years of Evolving Images at HKUST library.",
+    "link": "https://apps.apple.com/hk/app/ar-ricci-map/id6466373010?l=en-GB",
+    "img": "img-ricci",
+    "videoTitle":"",
+    "video": "",
+    "copyright": "HKUST VisLab E-learning Team",
+    "showVideo":""
+  },
+  {
+    "id": 3,
+    "title": "Centre for Slope Safety AR Game: Saving Hilly",
+    "abstract":"Saving Hilly is an immersive and educational AR game that instructs individuals on the importance of slope safety. Additionally, the game showcases state-of-the-art technology designed to help individuals deal with landslides.",
+    "news":"The work is presented in the poster session of IEEE VIS 2023. It has been experienced by many students and can be seen in the HKUST(GZ) campus visitor center.",
+    "link": "https://slope-aoe.hkust.edu.hk/home",
+    "img": "img-landslide",
+    "videoTitle":"AR Game: Saving Hilly",
+    "video": "https://www.youtube.com/embed/Ghv_hGBkAwo",
+    "copyright": "HKUST VisLab E-learning Team",
+    "showVideo":"true"
+  }
+]
