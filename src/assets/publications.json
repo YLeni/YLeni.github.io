@@ -1,8 +1,19 @@
 [
-    {
+  {
+    "id": 17,
+    "title": "StoryLensEdu: Personalized Learning Report Generation through Narrative-Driven Multi-Agent Systems",
+    "venue": "IEEE Visualization 2025 Workshop on Visualization for Communication",
+    "venueTag": "PacificVis 2026",
+    "author": "Leixian Shen, Yan Luo, Rui Sheng, Yujia He, Haotian Li, Leni Yang, Huamin Qu",
+    "page": "",
+    "pdf": "IEEE Pacific Visualization Conference (2026). (Accepted)",
+    "img": "img-storylens",
+    "featured": true
+  },  
+  {
     "id": 16,
     "title": "Making Data Harder to Read: Visualizations that Intentionally Increase Time and Effort",
-    "venue": " IEEE Visualization 2025 Workshop on Visualization for Communication",
+    "venue": "IEEE Visualization 2025 Workshop on Visualization for Communication",
     "venueTag": "IEEE VIS Workshop VisComm 2025",
     "author": "Leni Yang, Pierre Dragicevic, Yvonne Jansen",
     "page": "",
