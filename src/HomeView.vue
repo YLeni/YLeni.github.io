@@ -7,7 +7,7 @@
       <div class="text-center">
         <span class="font-name">Leni Yang</span>
         <br>
-        <span class="font-title">Data Visualization</span>
+        <span class="font-title">Information Visualization</span>
         <br>
         <span class="font-title">Human-Computer Interaction</span>
         <br>
