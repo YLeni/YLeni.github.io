@@ -1,8 +1,20 @@
 [
   {
+    "id": 18,
+    "title": "LandSAR: Visceralizing Landslide Data for Enhanced Situational Awareness in Immersive Analytics",
+    "venue": "IEEE Pacific Visualization Conference 2026 (To be available)",
+    "venueTag": "PacificVis 2026",
+    "author": "Wong Kam-Kwai, Yi-Lin Ye, Wai Tong, Haobo Li, Kentaro Takahira, Aastha Bhatta, Sunil Poudyal, Charles Wang Wai Ng, Huamin Qu, and Leni Yang",
+    "page": "",
+    "pdf": "",
+    "img": "img-landsar",
+    "featured": true
+
+  },
+  {
     "id": 17,
     "title": "StoryLensEdu: Personalized Learning Report Generation through Narrative-Driven Multi-Agent Systems",
-    "venue": "IEEE Pacific Visualization Conference 2026 (Accepted)",
+    "venue": "IEEE Pacific Visualization Conference 2026",
     "venueTag": "PacificVis 2026",
     "author": "Leixian Shen, Yan Luo, Rui Sheng, Yujia He, Haotian Li, Leni Yang, Huamin Qu",
     "page": "",
@@ -181,7 +193,7 @@
     "venue": "IEEE Visualization Conference 2019",
     "venueTag": "IEEE VIS/TVCG",
     "author": "Ke Xu, Yun Wang, Leni Yang, Yifang Wang, Bo Qiao, Si Qin, Yong Xu, Haidong Zhang, Huamin Qu",
-    "page": "empty",
+    "page": "",
     "pdf": "https://arxiv.org/pdf/1907.13187",
     "img": "img-cloud",
     "featured": false
