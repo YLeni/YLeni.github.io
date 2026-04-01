@@ -116,12 +116,17 @@
 
       <div class="row">
         <div class="divider div-transparent div-dot"></div>
-        <div class="col-12 col-md-9">
+        <NewsView></NewsView>
+        <div class="divider div-transparent div-dot"></div>
+        <div class="col-12 col-md-11">
+           <PublicationsView></PublicationsView>
+        </div>
+        <!-- <div class="col-12 col-md-9">
           <PublicationsView></PublicationsView>
         </div>
         <div class="col-12 col-md-3">
           <NewsView></NewsView>
-        </div>
+        </div> -->
       </div>
 
       <div class="divider div-transparent div-dot"></div>

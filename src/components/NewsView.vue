@@ -34,6 +34,8 @@ export default {
 <style scoped>
 #news-view {
     margin-top: 4vh;
+    height: 200px;
+    overflow-y: auto;
 }
 #news{
     margin-top: 2vh;
