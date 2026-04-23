@@ -6,7 +6,7 @@
       <!-- Navigation links to the right -->
       <ul class="nav-list float-right">
         <li class="nav-item float-right"><router-link to="/">Home</router-link></li>
-        <li class="nav-item float-right"><a href="./pdfs/CV_Leni_Yang_2025_11.pdf" target="_blank">CV</a></li>
+        <li class="nav-item float-right"><a href="https://docs.google.com/document/d/1PT8FjIPsFkVHPCnIMjuOGQVOUYKqLpLU/edit?usp=sharing&ouid=111839029678821639540&rtpof=true&sd=true" target="_blank">CV</a></li>
       </ul>
     </div>
   </nav>
