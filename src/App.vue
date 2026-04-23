@@ -5,8 +5,8 @@
       <div class="nav-brand">Leni Yang</div>
       <!-- Navigation links to the right -->
       <ul class="nav-list float-right">
-        <li class="nav-item float-right font-title"><router-link to="/">Home</router-link></li>
-        <li class="nav-item float-right font-title"><a href="./pdfs/CV_Leni_Yang_2025_11.pdf" target="_blank">CV</a></li>
+        <li class="nav-item float-right"><router-link to="/">Home</router-link></li>
+        <li class="nav-item float-right"><a href="./pdfs/CV_Leni_Yang_2025_11.pdf" target="_blank">CV</a></li>
       </ul>
     </div>
   </nav>
@@ -14,7 +14,7 @@
 
   <div id="right-claim">
     <hr />
-    Copyright @ Leni Yang. Last updated: Feb 2025
+    Copyright @ Leni Yang. Last updated: April 2026
   </div>
 </template>
 
@@ -64,7 +64,7 @@ export default {
 
 @media (max-width:3000px) {
     .main-text {
-        font-size: 24px; 
+      font-size: 28px; 
     }
     .sec-title{
       font-size: 30px;
@@ -73,7 +73,7 @@ export default {
 
 @media (max-width:2400px) {
     .main-text {
-        font-size: 20px; 
+        font-size: 24px; 
     }
     .sec-title{
       font-size: 24px;
@@ -82,7 +82,7 @@ export default {
 
 @media (max-width:2000px) {
     .main-text {
-        font-size: 16px; 
+        font-size: 18px; 
     }
     .sec-title{
       font-size: 20px;
@@ -98,22 +98,6 @@ export default {
     }
 }
 
-
-
-
-
-/* .sec-title:after {
-  content: "";
-  background-color: cadetblue !important;
-  height: 35%;
-  position: absolute;
-  bottom: 0.2rem;
-  right: 0;
-  width: 100%;
-  z-index: -1;
-  border-radius: 30%;
-} */
-
 #right-claim {
   margin-top: 10vh;
   padding-bottom:2vh;
@@ -121,8 +105,8 @@ export default {
 }
 
 #app {
-  /* font-family: sans-serif, Avenir, Helvetica, Arial; */
-  font-family: Optima, sans-serif;
+  /* font-family: Optima, sans-serif; */
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */

@@ -39,8 +39,6 @@ export default {
 }
 #news{
     margin-top: 2vh;
-    overflow: scroll;
-    max-height: 80vh;
 }
 .date{
     font-weight: bold;

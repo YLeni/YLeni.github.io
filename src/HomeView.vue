@@ -1,11 +1,11 @@
 <template>
   <div id="home-div">
     <div id="intro-bar" class="d-flex flex-row flex-wrap justify-content-center align-items-center main-text">
-      <div class="">
+      <div>
         <img class="img-thumbnail" src="images/leni_profile_pic.png" id="avatar">
       </div>
       <div class="text-center">
-        <span class="font-name">Leni Yang</span>
+        <span class="font-name" style="font-size:24px">Leni Yang</span>
         <br>
         <span class="font-title">Information Visualization</span>
         <br>

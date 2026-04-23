@@ -2,11 +2,11 @@
   {
     "id": 18,
     "title": "LandSAR: Visceralizing Landslide Data for Enhanced Situational Awareness in Immersive Analytics",
-    "venue": "IEEE Pacific Visualization Conference 2026 (To be available)",
+    "venue": "IEEE Pacific Visualization Conference 2026",
     "venueTag": "PacificVis 2026",
     "author": "Wong Kam-Kwai, Yi-Lin Ye, Wai Tong, Haobo Li, Kentaro Takahira, Aastha Bhatta, Sunil Poudyal, Charles Wang Wai Ng, Huamin Qu, and Leni Yang",
     "page": "",
-    "pdf": "",
+    "pdf": "https://arxiv.org/pdf/2604.09241",
     "img": "img-landsar",
     "featured": true
 

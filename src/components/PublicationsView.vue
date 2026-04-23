@@ -25,7 +25,6 @@
                         </a>
                     </div>
                 </div>
-                <!-- <div class="divider div-transparent div-dot"></div> -->
             </div>
         </div>
     </div>
@@ -107,16 +106,14 @@ export default {
 .extra-pub-info {
     text-decoration: none;
     margin-right: 0.4vw;
-    /* background-color: #777777;
-    color: #fff; */
-    /* border-bottom: solid 1px; */
-    /* border-style: solid; */
-    color: #777777;
-    /* border-radius: 0.25em; */
+    border-style: solid;
+    border-width: 1px;
+    border-color: cadetblue;
+    color: #2c3e50;
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
-    /* padding: 2px 2px; */
+    padding: 2px 2px;
     /* padding: 0.1em 0.1em; */
 }
 

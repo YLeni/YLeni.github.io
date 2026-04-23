@@ -1,5 +1,10 @@
 [
     {
+        "date":"April, 2026",
+        "event":"I gave a guest's lecture (Title: Storytelling with Data) in the Data Visualization course at Texa A&M (Invited by Meng Xia).",
+        "icon":"fa-solid fa-person-chalkboard"
+    },
+    {
         "date":"Nov, 2025",
         "event":"I attended the IEEE VIS 2025 conference in Vienna and presented one workshop paper and one poster.",
         "icon":"fa-solid fa-person-chalkboard"
